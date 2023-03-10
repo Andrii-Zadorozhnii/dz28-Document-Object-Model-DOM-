@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <title>HOMEWORK #28 Document Object Model (DOM)</title>
+  </head>
+  <body>
+    <a href="../index.html" class="back"><button class="button">Back</button></a>
+
+    <!--Open button-->
+    <button onclick="openModal()">Open Modal</button>
+
+    <!--Modal-->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <ul>
+          <li><b>This is the modal window.</b></li>
+          <li>1. Створити HTML-сторінку з кнопкою "Відкрити" і модальним вікном.</li>
+          <li>2. На модальном вікні повинен бути текст і кнопка "Закрити".</li>
+          <li>3. Спочатку модальне вікно не відображається. При кліку на кнопку
+            "Відкрити" з'являється модальне вікно, на кнопку "Закрити" — зникає.</li>
+        </ul>
+        <button onclick="closeModal()">Close Modal</button>
+      </div>
+    </div>
+
+    <script src="../js/modalWindow.js"></script>
+  </body>
+</html>
